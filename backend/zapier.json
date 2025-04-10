@@ -1,0 +1,212 @@
+[
+  {
+    "invoiceId": "INV001",
+    "recipientEmail": "tester1234576789@gmail.com",
+    "userId": "USER123",
+    "amount": 500.00,
+    "dueDate": "2024-12-20",
+    "purchaseDate": "2024-12-01",
+    "location": "New York, USA",
+    "recipient": "John Doe",
+    "status": "Due",
+    "itemsPurchased": [
+      {
+        "itemName": "Laptop",
+        "quantity": 1,
+        "price": 500.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV002",
+    "recipientEmail": "tester1234576789@gmail.com",
+    "userId": "USER124",
+    "amount": 250.00,
+    "dueDate": "2024-12-18",
+    "purchaseDate": "2024-11-15",
+    "location": "Los Angeles, USA",
+    "recipient": "Jane Smith",
+    "status": "Paid",
+    "itemsPurchased": [
+      {
+        "itemName": "Smartphone",
+        "quantity": 1,
+        "price": 250.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV003",
+    "recipientEmail": "saurabhpcs21@gmail.com",
+    "userId": "USER123",
+    "amount": 750.00,
+    "dueDate": "2024-12-25",
+    "purchaseDate": "2024-12-05",
+    "location": "Chicago, USA",
+    "recipient": "Michael Johnson",
+    "status": "Due",
+    "itemsPurchased": [
+      {
+        "itemName": "Headphones",
+        "quantity": 1,
+        "price": 150.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV004",
+    "recipientEmail": "sanjaykumarssp199@gmail.com",
+    "userId": "USER125",
+    "amount": 1000.00,
+    "dueDate": "2024-12-15",
+    "purchaseDate": "2024-12-10",
+    "location": "Miami, USA",
+    "recipient": "Emily Brown",
+    "status": "Due",
+    "itemsPurchased": [
+      {
+        "itemName": "Tablet",
+        "quantity": 1,
+        "price": 400.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV005",
+    "recipientEmail": "saurabhpcs21@gmail.com",
+    "userId": "USER123",
+    "amount": 300.00,
+    "dueDate": "2024-12-30",
+    "purchaseDate": "2024-12-12",
+    "location": "San Francisco, USA",
+    "recipient": "Chris Green",
+    "status": "Due",
+    "itemsPurchased": [
+      {
+        "itemName": "Wireless Mouse",
+        "quantity": 1,
+        "price": 50.00
+      },
+      {
+        "itemName": "Laptop Stand",
+        "quantity": 1,
+        "price": 250.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV006",
+    "recipientEmail": "alex.jones@gmail.com",
+    "userId": "USER126",
+    "amount": 1200.00,
+    "dueDate": "2024-12-22",
+    "purchaseDate": "2024-12-03",
+    "location": "Houston, USA",
+    "recipient": "Alex Jones",
+    "status": "Due",
+    "itemsPurchased": [
+      {
+        "itemName": "Gaming Laptop",
+        "quantity": 1,
+        "price": 1000.00
+      },
+      {
+        "itemName": "Wireless Mouse",
+        "quantity": 1,
+        "price": 50.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV007",
+    "recipientEmail": "lisa.miller@gmail.com",
+    "userId": "USER127",
+    "amount": 450.00,
+    "dueDate": "2024-12-17",
+    "purchaseDate": "2024-12-01",
+    "location": "Dallas, USA",
+    "recipient": "Lisa Miller",
+    "status": "Paid",
+    "itemsPurchased": [
+      {
+        "itemName": "Bluetooth Speaker",
+        "quantity": 2,
+        "price": 100.00
+      },
+      {
+        "itemName": "Phone Case",
+        "quantity": 1,
+        "price": 50.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV008",
+    "recipientEmail": "robert.paulson@gmail.com",
+    "userId": "USER128",
+    "amount": 320.00,
+    "dueDate": "2024-12-28",
+    "purchaseDate": "2024-12-10",
+    "location": "San Diego, USA",
+    "recipient": "Robert Paulson",
+    "status": "Due",
+    "itemsPurchased": [
+      {
+        "itemName": "Digital Camera",
+        "quantity": 1,
+        "price": 250.00
+      },
+      {
+        "itemName": "Camera Lens",
+        "quantity": 1,
+        "price": 70.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV009",
+    "recipientEmail": "sarah.johnson@gmail.com",
+    "userId": "USER129",
+    "amount": 900.00,
+    "dueDate": "2024-12-18",
+    "purchaseDate": "2024-12-05",
+    "location": "Seattle, USA",
+    "recipient": "Sarah Johnson",
+    "status": "Paid",
+    "itemsPurchased": [
+      {
+        "itemName": "Smartphone",
+        "quantity": 1,
+        "price": 800.00
+      },
+      {
+        "itemName": "Phone Charger",
+        "quantity": 1,
+        "price": 100.00
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV010",
+    "recipientEmail": "david.williams@gmail.com",
+    "userId": "USER130",
+    "amount": 650.00,
+    "dueDate": "2024-12-23",
+    "purchaseDate": "2024-12-07",
+    "location": "Phoenix, USA",
+    "recipient": "David Williams",
+    "status": "Due",
+    "itemsPurchased": [
+      {
+        "itemName": "4K Television",
+        "quantity": 1,
+        "price": 500.00
+      },
+      {
+        "itemName": "Soundbar",
+        "quantity": 1,
+        "price": 150.00
+      }
+    ]
+  }
+]

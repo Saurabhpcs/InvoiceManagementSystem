@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+
+.box1 {
+    width: 100%;
+    background-image: url("https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  padding: 10px 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #0056b3, #003f7f);
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background: linear-gradient(45deg, #ff5252, #e04040);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: white;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(45deg, #e04040, #c62828);
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: fadeIn 1s ease;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #007bff, transparent);
+}
+
+.alert-danger {
+  background: #ffdddd;
+  color: #d9534f;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}

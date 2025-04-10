@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;500;600&display=swap');
+
+.invoice-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.invoice-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.badge {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #fff;
+    font-weight: 600;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: 600;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.dark-mode .invoice-card {
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+}
+
+.dark-mode .card-body {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+}
+
+.dark-mode .card-title,
+.dark-mode .card-subtitle,
+.dark-mode .card-text {
+    color: #f0f0f0;
+}
+
+.dark-mode .badge-warning {
+    background-color: #ffb300;
+}
+
+.dark-mode .badge-success {
+    background-color: #3c9e5f;
+}
+
+@media (max-width: 768px) {
+    .col-md-3 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.invoice-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px);
+}
+
+.invoice-card .card-body:hover {
+    background-color: #fafafa;
+}
